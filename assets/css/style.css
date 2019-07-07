@@ -134,7 +134,7 @@ input[type=submit]:hover {
 .message{
     width: 100%;
     display: block;
-    resize: inherit;
+    resize: both;
 }
 
 .section3{
@@ -291,7 +291,34 @@ and (max-device-width : 640px){
         margin-bottom: 20px;
     }
   
+    .section2{
+        clear:left;
+        width: 100%;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        margin-top: 20px;
+        border-color: #dddddd
+    
+    }
 
+    .message{
+        resize: both;
+        overflow: auto;
+                      
+    }
+
+    input[type=submit] {
+        width: 20%;
+        background-color: #4aaaa5;
+        color: #dddddd;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+         
+    }
     .footer{
         background-color:#666666;
         margin-top:50px;
@@ -390,6 +417,34 @@ and (max-device-width : 768px) {
         margin-bottom: 20px;
     }
     
+    .section2{
+        clear:left;
+        width: 100%;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        margin-top: 20px;
+        border-color: #dddddd
+    
+    }
+    .message{
+        resize: both;
+        overflow: auto;
+                      
+    }
+
+    input[type=submit] {
+        width: 20%;
+        background-color: #4aaaa5;
+        color: #dddddd;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+         
+    }
+    
     
     .footer{
         background-color:#666666;
@@ -466,6 +521,39 @@ and (max-device-width : 980px) {
     
     }
     
+    .section2{
+        clear:left;
+        float: left;
+        width: 70%;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        margin-top: 20px;
+        border-color: #dddddd;
+        padding-bottom:20px;
+        margin-bottom: 20px; 
+    
+    }
+
+    .message{
+        resize: both;
+        overflow: auto;
+                      
+    }
+
+    input[type=submit] {
+        width: 20%;
+        background-color: #4aaaa5;
+        color: #dddddd;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+         
+    }
+    
+
     .footer{
         background-color:#666666;
         margin-top:50px;
@@ -478,9 +566,8 @@ and (max-device-width : 980px) {
           
     } 
           
-    }
-    
-        
 }
+    
+
 
 
